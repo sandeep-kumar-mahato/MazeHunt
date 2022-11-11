@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,35 @@
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <title>MazeHunt</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body class="bg">
 
-    <nav>
-        <img src="./images/maze-6.png" alt="" width="20%">
-        <ul>
-            <li>About</li>
-            <li>Rules</li>
-            <li>Social Handling</li>
-        </ul>
-    </nav>
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/e0ada558cb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="bg">
+        <nav>
+            <img src="./images/maze-6.png" alt="logo">
+            <div class="nav-links" id="nav-links">
+                <i class="fas fa-times material-icons" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Rules</a></li>
+                    <li><a href="#">Social Handling</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars material-icons" onclick="showmenu()"></i>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Videos</h1>
+        <video src="videos/maze.mp4"></video>
+    </section>
+
+    <script src="index.js"></script>
 
 </body>
+
 </html>
