@@ -2,57 +2,84 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <title>MazeHunt</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <title>MazeHunt</title>
+  <link rel="stylesheet" href="style.css">
 
-    <!-- Fontawesome Icons -->
-    <script src="https://kit.fontawesome.com/e0ada558cb.js" crossorigin="anonymous"></script>
+  <!-- Fontawesome Icons -->
+  <script src="https://kit.fontawesome.com/e0ada558cb.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body class="bg">
-    <header>
-        <nav>
-            <img src="./images/maze-6.png" alt="logo">
-            <div class="nav-links" id="nav-links">
-                <i class="fas fa-times material-icons" onclick="hidemenu()"></i>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Rules</a></l>
-                    <li><a href="#">Social Handling</a></li>
-                </ul>
-            </div>
-            <i class="fas fa-bars material-icons" onclick="showmenu()"></i>
-        </nav>
-    </header>
-
-    <section class="home">
-        <div class="title">
-            <img src="./images/maze-6.png" alt="title" width="50%">
-        </div>
-        <div>
-            <video src="videos/maze.mp4" autoplay  width="100%" loop> </video>
-        </div>
-    </section>
-
-    <section>
-        <h1>RULES</h1>
+  <header>
+    <nav>
+      <img src="./images/maze-6.png" alt="logo">
+      <div class="nav-links" id="nav-links">
+        <i class="fas fa-times material-icons" onclick="hidemenu()"></i>
         <ul>
-            <li></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Rules</a></l>
+          <li><a href="#">Social Handling</a></li>
         </ul>
-    </section>
+      </div>
+      <i class="fas fa-bars material-icons" onclick="showmenu()"></i>
+    </nav>
+  </header>
 
-    <section class="social-icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
-    </section>
+  <section class="home">
+    <div class="title">
+      <img src="images/maze-6.png" alt="title" width="50%">
+    </div>
+    <div>
+      <video autoplay muted loop id="myVideo">
+        <source src="videos/maze.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
 
-    <script src="index.js"></script>
+  <section>
+    <h1>RULES</h1>
+    <div class="rules">
+      <ul>
+        <li>The participants must register as a team of two.</li>
+        <li>
+          Each team will have seven minutes to cross the
+          maze.
+        </li>
+
+        <li>Within these 7 minutes, each team will have to
+          cross the maze from start to finish while going
+          through each of the seven checkpoints and the
+          fun games counter situated at different locations
+          within the maze.</li>
+        <li>At these checkpoints, teams will have to answer
+          certain questions.</li>
+        <li>At the fun games counter, the teams will have to
+          take part in a few quick and fun games to gain
+          points.</li>
+        <li>Teams will be awarded points based on the
+          number of checkpoints crossed and how they
+          perform at each checkpoint within the stipulated
+          time limit.</li>
+        <li>In the end, the total points of each team will be
+          calculated and the top three teams with the most
+          points will be the winners</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="social-icons">
+    <a href="https://www.instagram.com/genesys_nitr/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/nitr.genesys"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/company/genesys-nit-rourkela/"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.youtube.com/channel/UCzzwOZWHroDqV6DM7nFI6LA"><i class="fab fa-youtube"></i></a>
+  </section>
+
+  <script src="index.js"></script>
 
 </body>
 

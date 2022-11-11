@@ -81,7 +81,7 @@ nav .material-icons {
 }
 
 
-@media(max-width: 700px) {
+@media(max-width: 900px) {
 
     nav {
         position: fixed;
@@ -114,6 +114,15 @@ nav .material-icons {
     .nav-links ul {
         padding: 16px;
     }
+
+    .title img{
+      width: 100%;
+      padding: 12px;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
 }
 
 section{
@@ -127,10 +136,51 @@ section{
 }
 
 video{
-    width: 200px;
+    width: 300px;
     padding-top: 2rem;
 }
 
-h1{
-    font-size: 14rem;
+
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fab-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fab-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fab-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fab-instagram {
+    background: #be0d8f;
+    color: white;
+}
+
+.rules{
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 24px;
+}
+
+.rules ul li{
+  list-style: circle;
+
 }
