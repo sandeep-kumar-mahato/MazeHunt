@@ -87,6 +87,15 @@ nav .material-icons {
         position: fixed;
     }
 
+    nav.sticky {
+        padding: 12px 50px;
+        background: #ee5522;
+    }
+
+    .title{
+        margin-top: 2rem;
+    }
+
     .nav-links ul li {
         display: block;
     }
@@ -127,7 +136,7 @@ nav .material-icons {
 
 section{
     font-family: myFirstFont;
-    margin: 5rem 0;
+    
     text-align: center;
 }
 
@@ -142,34 +151,34 @@ video{
 
 
 .fab {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    padding: 10px;
+    font-size: 40px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 10px 10px;
 }
 
-.fab:hover {
+.fa:hover {
     opacity: 0.7;
 }
 
-.fab-facebook {
+.fa-facebook {
     background: #3B5998;
     color: white;
 }
 
-.fab-linkedin {
+.fa-linkedin {
     background: #007bb5;
     color: white;
 }
 
-.fab-youtube {
+.fa-youtube {
     background: #bb0000;
     color: white;
 }
 
-.fab-instagram {
+.fa-instagram {
     background: #be0d8f;
     color: white;
 }
@@ -178,9 +187,14 @@ video{
   font-family: sans-serif;
   text-align: justify;
   padding: 24px;
+  color: #fff;
 }
 
 .rules ul li{
-  list-style: circle;
+  list-style: square;
+}
 
+.heading{
+    font-size: 3rem;
+    margin-top: 2rem;
 }
